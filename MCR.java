@@ -1,7 +1,7 @@
 pacage JordanP.MinecraftRevamped.com;
 
 //imports
-
+import net.minecraft.block.Block;
 
 //Mod info
 @Mod(modid = "JordanP_MCR", name = "Minecraft Revamped", version = "In-Dev 0.0.1")

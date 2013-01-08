@@ -1,4 +1,4 @@
-pacage JordanP.MinecraftRevamped.com;
+pacage JordanP.MinecraftRevamped.common;
 
 //imports
 import net.minecraft.block.Block;

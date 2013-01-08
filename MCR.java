@@ -1,7 +1,13 @@
-pacage JordanP.MinecraftRevamped.com
+pacage JordanP.MinecraftRevamped.com;
 
 //imports
 
 
-public class MCR
+//Mod info
+@
 
+
+public class MCR
+{
+  @Instance(")
+  

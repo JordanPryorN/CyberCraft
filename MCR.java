@@ -16,6 +16,9 @@ public static MCR instance;
 //Block Static(S)
 public static Block oreCopper;
 
+//item statics
+public static Item ingotCopper;
+
 @PreInit
 public void load(FMLPreInitializationEvent e)
 {
@@ -25,6 +28,9 @@ oreCopper = new BlockCopperOre(230).setStepSound(Block.soundStoneFootstep).setHa
 
 //game registers (blocks only)
 GameRegistry.registerBlock(oreCopper);
+
+//item inputs
+ingotCopper = new ItemingotCopper(8001).setIconIndex(0).setItemName("ingotCopper").setCreativeTab(CreativeTabs.tabMaterials);
 
 //language registry (blocks and items)
 LanguageRegistry.addName(oreCopper, "Copper Ore");

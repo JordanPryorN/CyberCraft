@@ -2,10 +2,9 @@ package JordanP.MinecraftRevamped.common;
 
 //Imports
 import java.util.Random;
+import net.minecraft.block.Block;
+import net.minecraft.block.Material;
 
-import net.minecraft.src.Block;
-import net.minecraft.src.Material;
-package JordanP.MinecraftRevamped.common;
 
 public class BlockCopperOre extends Block
 {
